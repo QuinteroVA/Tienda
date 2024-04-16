@@ -1,0 +1,10 @@
+.footer_copy {
+  --padding-container: 10px 0;
+  text-align: center;
+  color: white;
+}
+
+.footer_copyright {
+  font-weight: 1;
+  font-size: small;
+}

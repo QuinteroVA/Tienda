@@ -1,0 +1,36 @@
+<div class="card formulario">
+  <h3>Editar</h3><hr>
+  <form (ngSubmit)="editarProducto(detallesproductos)" #detallesproductos="ngForm">
+    <div class="mb-3">
+      <label class="form-label">Código</label>
+      <input type="text" class="form-control" placeholder="Ingrese Id" name="id" [(ngModel)]="id">
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Tipo</label>
+      <select type="text" class="form-control" placeholder="Ingrese tipo de producto" name="tipo" [(ngModel)]="tipo">
+        <option value="Ropa">Ropa</option>
+        <option value="Calzado">Calzado</option>
+        <option value="Electronica">Electronica</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Nombre</label>
+      <input type="text" class="form-control" placeholder="Ingrese Nombre del producto" name="nombre" [(ngModel)]="nombre">
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Descripción</label>
+      <input type="text" class="form-control" placeholder="Ingrese Descripción" name="descripcion" [(ngModel)]="descripcion">
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Precio</label>
+      <input type="text" class="form-control" placeholder="Ingrese Precio" name="precio" [(ngModel)]="precio"> 
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Imagen</label>
+      <input type="text" class="form-control" placeholder="Ingrese link imagen" name="imagen" [(ngModel)]="imagen">
+    </div>
+    <hr>
+    <button type="submit" class="btn btn-warning">Actualizar</button>&nbsp;&nbsp;
+    <button [routerLink]="['/producto']" class="btn btn-secondary">Cancelar</button><br><br>
+  </form>
+</div>

@@ -1,0 +1,64 @@
+<h2 style="text-align: center">Información de Contacto</h2>
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-7"><br>
+      <hr>
+      <div class="card" style="width:max-content">
+        <div *ngIf="visualizar==true else open">
+          <app-mapa></app-mapa>
+        </div>
+        <ng-template #open>
+          <app-video></app-video>
+        </ng-template>
+        <div class="card-body">
+          <button class="btn btn-success" (click)="cambiar()">Cambiar</button>
+        </div>
+      </div><br>
+      <div>
+        <h4><small>Comentarios</small></h4>
+        <hr>
+        <div>
+          <app-comentario></app-comentario>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <h4><small>Formulario</small></h4>
+      <hr>
+      <div class="card card-body">
+        <app-formcomentarios></app-formcomentarios>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+  </div><br>
+  <h4><small>Contactos </small></h4>
+  <hr>
+
+    <div class="row" style="align-items: center">
+      <div class="col-md-4">
+        <h5><small>Dirección</small></h5>
+        <ul>
+          Av. 10 de Agosto y Mejia <br>
+          Centro Comercial Multiventas<br>
+          Sector La Florida
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <h5><small>Teléfonos</small></h5>
+        <ul>
+          <li>0986574562</li>
+          <li>0963659885</li>
+          <li>0977968574</li>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <h5><small>Correos</small></h5>
+        <li>mitienda@gmail.com</li>
+        <li>mitienda@hotmail.com</li>
+        <li>mitienda@yahoo.com</li>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,36 @@
+{
+  "comentarios": [
+    {
+      "id": "1",
+      "nombre": "Juan",
+      "apellido": "Pérez",
+      "correo": "jperez@correo.com",
+      "telefono": "097635289",
+      "mensaje": "Excelente experiencia de compra! La atención al cliente fue impecable, el producto llegó en perfecto estado y a tiempo. Sin duda volveré a comprar aquí."
+    },
+    {
+      "id": "2",
+      "nombre": "María",
+      "apellido": "Vera",
+      "correo": "mvera@correo.com",
+      "telefono": "0986524178",
+      "mensaje": "La tienda tiene una buena variedad de productos, pero los precios son un poco elevados. El envío fue rápido y sin problemas."
+    },
+    {
+      "id": "3",
+      "nombre": "José",
+      "apellido": "Díaz",
+      "correo": "jdiaz@correo.com",
+      "telefono": "0977968574",
+      "mensaje": "Tuve una mala experiencia con la tienda. El producto que pedí llegó dañado y el servicio de atención al cliente no fue muy eficiente. No recomendaría esta tienda a otros."
+    },
+    {
+      "id": "4",
+      "nombre": "Pedro",
+      "apellido": "Rojas",
+      "correo": "projas@correo.com",
+      "telefono": "0965589612",
+      "mensaje": "Me gusta la tienda, pero creo que podrían mejorar la experiencia de compra si ofrecieran más opciones de envío y si el proceso de devolución fuera más sencillo."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "tipo": "Ropa",
+      "nombre": "Camisa de manga corta",
+      "descripcion": "Camisa de algodón con estampado de rayas.",
+      "precio": "$ 25.00",
+      "imagen": "../../../assets//image//camisa1.png"
+    },
+    {
+      "id": "2",
+      "tipo": "Ropa",
+      "nombre": "Pantalones vaqueros",
+      "descripcion": "Pantalones vaqueros ajustados de color azul.",
+      "precio": "$ 30.00",
+      "imagen": "../../../assets//image//pantalon1.png"
+    },
+    {
+      "id": "3",
+      "tipo": "Calzado",
+      "nombre": "Chaqueta de cuero",
+      "descripcion": "Chaqueta de cuero genuino con forro interior de poliéster.",
+      "precio": "$ 100.00",
+      "imagen": "../../../assets//image//chaqueta1.png"
+    },
+    {
+      "id": "4",
+      "tipo": "Calzado",
+      "nombre": "Zapatillas deportivas",
+      "descripcion": "Zapatillas deportivas ligeras para correr.",
+      "precio": "$ 50.00",
+      "imagen": "../../../assets//image//zapatos1.png"
+    },
+    {
+      "id": "5",
+      "tipo": "Calzado",
+      "nombre": "Botas de cuero",
+      "descripcion": "Botas de cuero genuino con suela antideslizante.",
+      "precio": "$ 70.00",
+      "imagen": "../../../assets//image//botas1.png"
+    },
+    {
+      "id": "6",
+      "tipo": "Calzado",
+      "nombre": "Sandalias de verano",
+      "descripcion": "Sandalias cómodas y transpirables para uso diario.",
+      "precio": "$ 25.00",
+      "imagen": "../../../assets//image//sandalias.png"
+    },
+    {
+      "id": "7",
+      "tipo": "Electronica",
+      "nombre": "Teléfono inteligente",
+      "descripcion": "Teléfono móvil con pantalla táctil de alta resolución.",
+      "precio": "$ 300.00",
+      "imagen": "../../../assets//image//celular.png"
+    },
+    {
+      "id": "8",
+      "tipo": "Electronica",
+      "nombre": "Auriculares inalámbricos",
+      "descripcion": "Auriculares Bluetooth con cancelación de ruido.",
+      "precio": "$ 100.00",
+      "imagen": "../../../assets//image//audifonos.png"
+    },
+    {
+      "id": "9",
+      "tipo": "Electronica",
+      "nombre": "Tablet",
+      "descripcion": "Tablet con pantalla HD y capacidad de almacenamiento de 64 GB.",
+      "precio": "$ 200.00",
+      "imagen": "../../../assets//image//tablet.png"
+    },
+    {
+      "id": "10",
+      "tipo": "Electronica",
+      "nombre": "Smartwatch",
+      "descripcion": "Reloj inteligente con monitor de actividad y GPS integrado.",
+      "precio": "$ 150.00",
+      "imagen": "../../../assets//image//smatwatch.png"
+    },
+    {
+      "id": "11",
+      "tipo": "Electronica",
+      "nombre": "Smartwatch",
+      "descripcion": "Reloj inteligente con monitor de actividad y GPS integrado.",
+      "precio": "$ 100.00",
+      "imagen": "../../../assets//image//smatwatch.png"
+    },
+    {
+      "id": "12",
+      "tipo": "Calzado",
+      "nombre": "Zapatillas deportivas",
+      "descripcion": "Zapatillas deportivas ligeras para correr.",
+      "precio": "$ 30.00",
+      "imagen": "../../../assets//image//zapatos1.png"
+    },
+    {
+      "id": "13",
+      "tipo": "Ropa",
+      "nombre": "Pantalones vaqueros",
+      "descripcion": "Pantalones vaqueros ajustados de color azul.",
+      "precio": "$ 30.00",
+      "imagen": "../../../assets//image//pantalon1.png"
+    }
+  ]
+}

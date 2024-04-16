@@ -1,0 +1,32 @@
+<div class="card" style="padding: 10px; margin: 10px;">
+  <h3>Productos</h3>
+  <table class="table table-light table-bordered-stripped">
+    <thead class="table-success">
+      <tr>
+        <th>Código</th>
+        <th>Tipo</th>
+        <th>Nombre</th>
+        <th>Descripción</th>
+        <th>Precio</th>
+        <th>Imagen</th>
+        <th>Acción</th>
+      </tr>
+    </thead>
+    <tbody style="vertical-align:middle">
+      <tr *ngFor="let producto of productos">
+        <td>{{producto.id}}</td>
+        <td>{{producto.tipo}}</td>
+        <td>{{producto.nombre}}</td>
+        <td>{{producto.descripcion}}</td>
+        <td>{{producto.precio}}</td>
+        <td>
+          <img src={{producto.imagen}} class="d-block mx-auto img-fluid" style="max-width:60px">
+        </td>
+        <td>
+          <button [routerLink]="['/productos', producto.id]" class="btn btn-primary">Editar</button>&nbsp;&nbsp;
+          <button (click)="borrar(producto.id)" class="btn btn-danger">Eliminar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
